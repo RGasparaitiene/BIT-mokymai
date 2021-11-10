@@ -1,0 +1,31 @@
+/* section {
+    background: gray;
+} */
+
+/* mobile */
+@media(min-width: 425px){
+
+    section {
+        height: 100px;
+        border: 1px solid red;
+        background: rgb(189, 126, 126);
+    }
+}
+
+/* tablet */
+@media(min-width: 768px){
+    section {
+        height: 200px;
+        border: 1px solid blue;
+        background: rgb(85, 153, 170);
+    }
+}
+
+/* big screen */
+@media(min-width: 1200px){
+    section {
+        height: 300px;
+        border: 1px solid green;
+        background: rgb(97, 177, 94);
+    }
+}
